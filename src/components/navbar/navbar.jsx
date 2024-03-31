@@ -1,9 +1,16 @@
 import "./navbar.css"
 
 
-function navbar() {
+function navbar(usersLength) {
   return (
-    <div>navbar</div>
+    <div className="navbar">
+      <div className="navbar-container container">
+        <h1 className="navbar-logo">CUser</h1>
+        <h3 className="navbar-counter">
+          { usersLength > 0 ? "You have:" + usersLength: "No user"}
+          </h3>
+      </div>
+    </div>
   )
 }
 

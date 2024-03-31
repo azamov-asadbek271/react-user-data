@@ -2,7 +2,11 @@ import "./footer.css"
 
 function footer() {
   return (
-    <div>footer</div>
+    <div className="footer">
+      <div className="footer-container container">
+        <p>All Right Reserved. A'zamov Asadbek</p>
+      </div>
+    </div>
   )
 }
 

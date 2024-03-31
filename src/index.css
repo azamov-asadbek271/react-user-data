@@ -28,7 +28,9 @@ ol {
 a {
   text-decoration: none;
 }
-
+main {
+  flex-grow: 1;
+}
 .container {
   width: 100%;
   max-width: 1300px;
