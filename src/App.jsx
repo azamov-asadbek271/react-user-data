@@ -22,9 +22,9 @@ function App() {
   }
    const addUser = (user) => {
      setUser((prev) => {
-      console.log(user)
-      return {...prev,user}
+      return [...prev,user]
      })
+     setModal(false)
    }
   return (
     <div onClick={closeModal} onKeyDown={closeModal} className='App'>
