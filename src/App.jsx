@@ -6,7 +6,7 @@ import UseList from './components/useList/UseList'
 import NewUserForm from './components/newuser/NewUserForm'
 
 function App() {
-  // boshi
+  // boshi`
   const [modaluse, setModal] = useState (false)
   const [users,setUser] = useState ([])
   const deleteUser = (id) => {

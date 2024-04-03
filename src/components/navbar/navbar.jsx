@@ -1,7 +1,7 @@
 import "./navbar.css"
 
 
-function navbar({usersLength}) {
+function Navbar({usersLength}) {
   return (
     <div className="navbar">
       <div className="navbar-container container">
@@ -14,4 +14,4 @@ function navbar({usersLength}) {
   )
 }
 
-export default navbar
+export default Navbar
